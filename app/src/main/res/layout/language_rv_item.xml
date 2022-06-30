@@ -10,8 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/blue_shade_1">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/idIVLanguage"
@@ -36,7 +35,7 @@
                 android:layout_margin="2dp"
                 android:padding="2dp"
                 android:text="Laguage Name"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -47,7 +46,7 @@
                 android:layout_margin="2dp"
                 android:padding="2dp"
                 android:text="Language Level"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/idTVLanguagePlatform"
@@ -56,7 +55,7 @@
                 android:layout_margin="2dp"
                 android:padding="2dp"
                 android:text="Language Platform"
-                android:textColor="@color/white" />
+                android:textColor="@color/black" />
 
         </LinearLayout>
     </RelativeLayout>
